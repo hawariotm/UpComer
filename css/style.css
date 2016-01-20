@@ -1,0 +1,338 @@
+body{
+	text-decoration: none;
+font-family: 'Asap Bold' ,arial;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+
+
+#pageheader
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 70px;
+	z-index: 2;
+	background-color: #fff;
+}
+#headerlink{
+	position: absolute;
+	float: left;
+/*	width: 13%;
+*/    height: 70px;
+    left: 5%;
+}
+
+#headerlink li:first-child{
+	margin-left: 0;
+}
+
+.links
+{
+	display: inline;
+	margin-left: 20px;
+}
+.links a.active{
+	color: #333;
+
+}
+.links a{
+text-decoration: none;
+
+color: #999;
+font-size: 18px;
+font-family: 'Asap Bold' ,arial;
+}
+#headerlink ul{
+	margin: 27px 0;
+}
+#headerlogo
+{
+	position: absolute;
+	width: 23%;
+    height: 70px;
+    left: 33%;
+    top:3%;
+}
+.logos
+{
+	margin-top: 20px;
+    margin-left: 35%;
+}
+#leftlinks{
+	position: absolute;
+	height: 70px;
+/*	width: 12%;
+*/	right: 6%;
+top: 5%;
+}
+#leftlinks li:first-child{
+	margin-left:0;
+}
+#container{
+	/*position: relative;*/
+}
+#content
+{
+	/*position: absolute;*/
+	min-height: 699px;
+	margin-top: 7%;
+	width: 100%;
+	left: 0;
+	top: 14%;
+	background: url("../images/bg1_repeat.png");
+}
+#sec_content{
+	/*position: relative;*/
+	left: 0;
+	right: 0;
+    height:600px; 
+    top: 7%;
+    font-size: 52px;
+    text-align: center;
+    color: #fff;
+    line-height: 1.2em;
+}
+#sechead{
+	width: 110%;
+margin-top: 10%;
+	
+}
+#para{
+	width: 107%;
+	margin-top: -4%;
+
+}
+.lab{
+	width:105%;
+	margin-top: -4%;
+}
+h2{
+     margin-top: 10%;
+	font-size: 52px;
+	font-weight: bold;
+
+}
+p{
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 1em;
+}
+label{
+	font-size: 24px;
+    font-weight: normal;
+
+}
+#email
+{
+	
+ margin-top: -1%;
+}
+.mail
+{
+	border-radius: 35px 0px 0 35px ;
+    background-color: #ee8277;
+    color: #fff;
+    width: 212px;
+    height: 43px;
+    padding-left: 45px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    border: 0;
+    font-family: 'Asap Bold' ,arial;
+    font-size: 20.3px;
+}
+.submitbtn
+{
+	border-radius: 0px 35px 35px 0px ;
+    background-color: #2ecc71;
+    background-image: none;
+    width: 81px;
+    height: 60px;
+    border: 0;
+    margin-left: -13px;
+    color: white;
+    font-family: 'Asap Bold' ,arial;
+    font-size: 20.3px;
+    cursor: pointer;
+}
+::-webkit-input-placeholder {
+color: #fff !important;
+}
+::-moz-input-placeholder {
+color: #fff !important;
+}
+.bottom_caption{
+      margin-bottom: -2%;
+     font-size: 16px;
+}
+#bottom
+{
+
+	right: 0;
+	left: 0;
+	height:800px;
+	top: 143%;
+}
+#botimg
+{
+	margin-top: 9%
+}
+
+
+#sec_content_wrapper{
+	max-width: 520px;
+	margin: 0 auto;
+	padding-top: 3%;
+}
+#bottom_wrapper{
+	max-width: 520px;
+	margin: 0 auto;
+	padding-top: 3%;
+}
+.desc h2{
+	font-size: 36px;
+	text-align: center;
+}
+.desc p{
+	font-size: 20px;
+    text-align: center;
+    line-height: 1.5em;
+    color: #999;
+
+}
+.bot_img{
+	margin-left: -41%;
+}
+.bot_img img{
+	width: 124%;
+}
+.desc_img{
+	margin-left: -25%;
+	margin-top: 95px;
+
+}
+.desc_2
+{
+	margin-left: 12%;
+    margin-top: 95px;
+    min-width: 300px;
+}
+#bot_desc
+{
+	display: inline-flex;
+}
+.desc_2 h2{
+	font-size: 36px;
+	text-align: left;
+}
+.desc_2 p{
+	font-size: 20px;
+    text-align: left;
+    line-height: 1.5em;
+    color: #999;
+}
+.desc_3
+{
+	margin-left: -30%;
+    margin-top: 95px;
+    min-width: 327px;
+}
+.desc_3 p{
+	font-size: 20px;
+    text-align: right;
+    line-height: 1.5em;
+    color: #999;
+}
+.desc_3 h2{
+	font-size: 36px;
+	text-align: right;
+}
+.desc_img2{
+	margin-left: 12%;
+	margin-top: 95px;
+}
+#bot_2
+{
+	margin-top: 9%;
+	height: 400px;
+	background: url("../images/bg2.png");
+}
+#bot_2_wrapper
+{
+	max-width: 520px;
+	margin: 0 auto;
+	padding-top: 3%;
+	color:#fff;
+
+}
+#bot_2_desc
+{
+	width: 166%;
+    margin-left: -32%;
+
+}
+#bot_2_desc p 
+{
+	text-align: center;
+    color: white;
+    line-height: 1.5em;
+
+}
+#lab_2{
+	margin-top: 16%;
+    margin-left: 21%;
+    color:#fff;
+}
+#email2
+{
+ margin-left: 17%;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+.lab_3{
+font-size: 16px;
+color: #fff;
+margin-left: 15%;
+}
+#upcomer{
+height: 300px;
+background-color: #333;
+
+ }
+#up_desc{
+   display: inline-flex;
+    padding-top: 1.6%;
+    margin-left: -15%;
+
+}
+.up_h3
+{
+  
+    color: #fff;
+    font-size: 50px;
+}
+#upcomer_wrapper
+{
+	max-width: 520px;
+	margin: 0 auto;
+	padding-top: 1%;
+	color:#fff;
+	margin-left: 28%
+
+}
+#pagefooter
+{
+	height: 70px;
+}
+#footer_icon{
+	margin-left: 41%;
+    margin-top: 2%;
+}
+#h2{
+	width: 100%;
+    margin-top: 36px;
+    margin-left: -11%;
+}
